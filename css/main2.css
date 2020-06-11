@@ -1,0 +1,71 @@
+:root{
+  --title-color: rgb(17, 100, 45);      /*Variavel a ser usada*/
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: #f0f0f5;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--title-color);
+  font-weight: 700;                   /*Força da fonte - vai de 100 a 900*/
+}
+
+#page-home .content{
+  width: 80%;
+  margin: auto;
+}
+
+#page-home main .propaganda{
+  background-color: aquamarine;
+  height: 200px;
+  margin: 5px;
+}
+
+#page-home main #textos{
+  
+}
+
+#page-home main #textos h1{
+  margin-top: -5px;
+  font-size: 50px;
+}
+
+#page-home main #textos #google-ads{
+  background-color: aquamarine;
+  height: 100px;
+  margin: 15px 25px 15px 0px;
+}
+
+#page-home main #textos #image{
+  height: 80vh;
+  /*
+  margin: 0px 25px 15px 0px;
+  background: url('../assets/home-background.svg') no-repeat;
+  */
+  background-position: bottom center;       /*Pode colocar 35vw que é 35% da largura*/
+}
+
+#page-home main #calculadora .macro_result{
+  font-size: 23px;
+  color: white;
+  align-content: center;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (min-width:993px)and(max-width:1200px){
+  #page-home main #calculadora .macro_result{
+    font-size: 18px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+  }  
+}

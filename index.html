@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora TMB</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main2.css">
+  
+</head>
+<body>
+  <div id="page-home">
+    <div class="content">
+      <header class="row">
+          <h3>TMB</h3>
+          <div class="divider"></div>
+      </header>
+      <main class="row">
+        <!--Propaganda Lateral-->
+        <div class="col l2 m4 s12">
+          <div class="col s12">
+              <a href="https://go.hotmart.com/C35540509K" rel="nofollow">
+                <img class="responsive-img" src="https://uploaddeimagens.com.br/images/001/767/471/full/banner.jpg?1544197035" border="0" width="300" height="250" />
+              </a>
+          </div>  
+          <div class="col s12">
+            <a href="https://go.hotmart.com/O35610554N" rel="nofollow">
+              <img class="responsive-img" src="assets/comboFitnessFlexivel.jpg" border="0" width="250" height="250" />
+            </a>
+          </div>
+          <div class="propaganda col s12"></div>
+          <div class="col s12">
+            <a href="https://go.hotmart.com/B35610863Y" rel="nofollow">
+              <img class="responsive-img" src="assets/emagrecaSemCortarAPizza.jpg" border="0" width="250" height="250" />
+            </a>
+        </div>
+        </div>
+
+        <div class="col l10 m6 s12">
+            <div id="textos" class="col l7 m12 s12">
+              <h1>Calculadora de Metabolismo Basal (TMB)</h1>
+              <p>Porque viver uma vida saudável te impulsiona para frente.</p>
+              <div id="google-ads" class="col s12">Teste Google Ads</div>
+              <p>Esta calculadora como resultado mostra seu Metabolismo Basal, a necessidade de calorias diárias (dependendo do nivel 
+                de atividade física), a real necessidade de calorias (dependendo do objetivo escolhido), então caso seu objetivo seja
+              perder peso, deverá injerir menos calorias e manter a atividade física.</p>
+              <p>Também, baseando-se na quantidade real de calorias que deve injerir, é estimado em gramas a quantidade de macronutrientes
+                necessarios para alcançar seus objetivos. Lembrando que a quantidade em gramas não é a do alimento, e sim do macronutriente. 
+                Por exemplo: um filé de frango grelhado de 200g não é 200g de proteina, precisa saber a quantidade em gramas de proteina, carboidrato
+                e gordura que o alimento tem.
+              </p>
+              <div id="image" class="col s12">
+                <img class="responsive-img" src="assets/home-background.svg" />
+              </div>
+            </div>
+      
+              <div id="calculadora" class="col l5 m12 s12">
+                  <form class="row">
+                    <div class="row">
+                      <h6>Sexo</h3>
+                      <p class="col s6">
+                        <label>
+                          <input name="sexo" type="radio" value="M" checked />
+                          <span>Masculino</span>
+                        </label>
+                      </p>
+                      <p class="col s6">
+                        <label>
+                          <input name="sexo" type="radio" value="F" />
+                          <span>Feminino</span>
+                        </label>
+                      </p>
+                    </div>
+
+                    <div class="row">
+                        <h6>Objetivo</h3>
+                        <p class="col s6">
+                          <label>
+                            <input name="objetivo" type="radio" value="perderPeso" checked />
+                            <span>Perder Peso</span>
+                          </label>
+                        </p>
+                        <p class="col s6">
+                          <label>
+                            <input name="objetivo" type="radio" value="ganharPeso" />
+                            <span>Ganhar Peso</span>
+                          </label>
+                        </p>
+                      </div>
+          
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="peso" type="text" class="validate">
+                          <label for="peso">Peso</label>
+                          <span class="helper-text" data-error="wrong" data-success="right">Em KG</span>
+                        </div>
+                      </div>
+          
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="altura" type="text" class="validate">
+                          <label for="altura">Altura</label>
+                          <span class="helper-text" data-error="wrong" data-success="right">Em centímetro</span>
+                        </div>
+                      </div>
+          
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <input id="idade" type="text" class="validate">
+                          <label for="idade">Idade</label>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <select id="nivel-af">
+                            <option value="" disabled selected>Escolha uma opção</option>
+                            <option value="1">Exercícios de baixa intensidade e atividades de lazer</option>
+                            <option value="2">Exercícios leves</option>
+                            <option value="3">Exercícios moderados 3 a 5 vezes por semana</option>
+                            <option value="4">Indivíduos ativos - treinos de 6 a 7 vezes por semana</option>
+                            <option value="5">Extremamente activos - alta intensidade todos os dias</option>
+                          </select>
+                          <label>Nível de Atividade Física</label>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col s12">
+                          <a id="calcular" class="waves-effect waves-light btn col s12">Calcular</a>
+                        </div>
+                      </div>
+                    </form>
+                    
+                    
+                    <div class="row">
+                      Resultados:
+                      <br><br>
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Taxa de Metabolismo Basal:</td>
+                            <td id="tmb"></td>
+                          </tr>
+                          <tr>
+                            <td>Necessidade de calorias diárias:</td>
+                            <td id="ndc"></td>
+                          </tr>
+                          <tr>
+                            <td>Real Necessidade de Calorias pelo objetivo:</td>
+                            <td id="real_ndc"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                        <div class="col s12 m12 l12 xl4">
+                          <div class="card-panel teal">
+                            <span class="white-text title_macro_result">Proteinas</span>
+                            <span id="proteinas" class="macro_result"></span>
+                          </div>
+                        </div>
+                        <div class="col s12 m12 l12 xl4">
+                          <div class="card-panel teal">
+                            <span class="white-text title_macro_result">Carboidratos</span>
+                            <span id="carboidratos" class="macro_result"></span>
+                          </div>
+                        </div>
+                        <div class="col s12 m12 l12 xl4">
+                          <div class="card-panel teal">
+                            <span class="white-text title_macro_result">Gorduras</span>
+                            <span id="gorduras" class="macro_result"></span>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+        </div>
+
+      </main>
+      
+    </div><!-- Final div content -->
+  </div><!-- Final page.home -->
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
